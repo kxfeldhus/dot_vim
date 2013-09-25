@@ -111,7 +111,6 @@ au BufNewFile,BufRead *.thor set filetype=ruby
 au BufNewFile,BufRead .autotest set filetype=ruby
 au BufNewFile,BufRead Gemfile set filetype=ruby
 au BufNewFile,BufRead *.yaml,*.yml setf yaml
-au BufNewFile *.rb 0r ~/.vim/skeletons/s.rb
 au BufNewFile,BufRead *.jst set syntax=jst
 au BufNewFile,BufRead *.j :set syntax=objj
 
