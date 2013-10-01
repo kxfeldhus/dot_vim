@@ -46,7 +46,7 @@ set t_Co=256
 set shortmess=atI
 set listchars=tab:>-,trail:.,eol:$
 
-colorscheme xoria256
+colorscheme solarized 
 
 " I always hit wq by accident on my small laptop keyboard, so disable it.
 cabbrev wq w
