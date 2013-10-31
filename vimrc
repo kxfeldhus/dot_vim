@@ -209,3 +209,6 @@ nnoremap <leader>y "=strftime("%c")<CR>P
 compiler rubyunit
 nmap <Leader>a :cf /tmp/autotest.txt<CR> :compiler rubyunit<CR>
 
+nmap <Leader>kd a<C-R>=strftime("%D %A")<CR><Esc>o  <Esc>,kt
+nmap <Leader>kt a<C-R>=strftime("%H%M")<CR> - 
+imap <Leader>kt <C-R>=strftime("%H%M")<CR> - 
